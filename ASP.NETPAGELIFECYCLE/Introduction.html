@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--ASP.NET PAGE LIFE CYCLE
+        asp. Net sayfalarının oluşması esnasında bazı yaşama döngüleri vardır. Bu yapıya Page Life Cycle Management denir. Sayfaların ilk istekle başlayıp kullanıcının karşısına gelene kadar geçirmiş olduğu yolların tamamıdır.
+
+        1.Page Request: İlk bu çalışır, sayfaya bir kullanıcı tarafından istendiği zaman Asp.NET bu sayfanın compile edilip edilmeyeceğine veya sayfayı çalıştırmadan varsa cach'deki versiyonunu gönderip göndermeyeceğine karar verir.
+        2.Start : Page nesnesinin Request ve Response edilir. Page nesnesine gönderilen request'in postback sonucu mu yoksa yeni bir request olarak gelip gelmediğini belirler ve ona göre IsPostBack property'sini set eder. IstPostBack sayfanın postback modunu bildirir.
+        3.Page Initialization: Sayfa oluşturulması aşamasında sayfa üzerindeki kontroller erişilebilir duruma gelir ve her kontrolün UniqueID property'sini set edilir. Eğer o anki request bir postback sonucu gerçekleşmişse bu aşamada postback data henüz yüklenmiş ve kontrollerin değeri viewstate'e göre yenilenmiştir.
+        4. Load: Bu aşamada eğer geçerli request bir postback ise kontrollerin değeri ve durumu viewstate içeriğine göre şekillenir.
+        5. Validation: Varsa sayfa üzerindeki validator kontrollerin Validate() metodu çağrılır. Validate () metodu page nesnesini ve içerisindeki kontrollerin her birinin IsVAlid property'sini set eder. IsValid property'si controllerin doğrulama işleminin başarılı olup olamadığını bildirir.
+        6.Postback Event Handling: Eğer request bir postback sonucu geçekleşmişse postback'i gerçekleştirirmiş veya durumu değişmiş controller'ın ilgili eventleri tetiklenir.
+        7.Rendering : Render işleminden önce page nesnesi kaydedilir.
+        Render aşamasında page nesnesi, her
+
+
+
+
+
+
+        8. Unload: Unload stage'i sayfa tümüyle render edildikten ve istemciye(client) gönderildikten sonra çağrılır. Bu durumda sayfa artık hafızadan kaldırılmaya(discard) hazırdır. Request ve reponse nesneleri 
+
+
+
+        -->
+
+
+</head>
+<body>
+
+</body>
+</html>
